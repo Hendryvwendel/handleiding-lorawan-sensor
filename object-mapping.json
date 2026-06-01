@@ -1,0 +1,60 @@
+{
+    "object": [
+        {
+            "id": "battery",
+            "description": "Batterij percentage",
+            "data_type": "NUMBER",
+            "value_type": "UINT8",
+            "unit": "%",
+            "access_mode": "R",
+            "bacnet_enable": 1,
+            "bacnet_type": "analog_input_object",
+            "bacnet_polarity": 0,
+            "modbus_enable": 0,
+            "reference": null,
+            "bacnet_unit_type_id": 15
+        },
+        {
+            "id": "humidity",
+            "description": "Vochtigheid",
+            "data_type": "NUMBER",
+            "value_type": "UINT16",
+            "unit": "%",
+            "access_mode": "R",
+            "bacnet_enable": 1,
+            "bacnet_type": "analog_input_object",
+            "bacnet_polarity": 0,
+            "modbus_enable": 0,
+            "reference": null,
+            "bacnet_unit_type_id": 15
+        },
+        {
+            "id": "co2",
+            "description": "Koolstofdioxide",
+            "data_type": "NUMBER",
+            "value_type": "UINT16",
+            "unit": "ppm",
+            "access_mode": "R",
+            "bacnet_enable": 1,
+            "bacnet_type": "analog_input_object",
+            "bacnet_polarity": 0,
+            "modbus_enable": 0,
+            "reference": null,
+            "bacnet_unit_type_id": 96
+        },
+        {
+            "id": "temperature",
+            "description": "temperatuur",
+            "data_type": "NUMBER",
+            "value_type": "UINT16",
+            "unit": "°C",
+            "access_mode": "R",
+            "bacnet_enable": 1,
+            "bacnet_type": "analog_input_object",
+            "bacnet_polarity": 0,
+            "modbus_enable": 0,
+            "reference": null,
+            "bacnet_unit_type_id": 62
+        }
+    ]
+}
